@@ -4,36 +4,33 @@
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
-   background-image: url("http://wallportal.com/uploads/posts/winter-forest-desktop-wallpaper/winter_forest_desktop_wallpaper_015.jpg");
+  background-image: url("http://wallportal.com/uploads/posts/winter-forest-desktop-wallpaper/winter_forest_desktop_wallpaper_015.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   align-items: center;
-}
-.nav {
-  
 }
 
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-  color: white;
   
 }
 
-.flex-container {
+.item-container {
   display: flex;
   flex-wrap: wrap-reverse;
   background-color: lightskyblue;
+  justify-content: center;
+ 
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
+.item-container > div {
+  background-color: azure;
   width: 100px;
   margin: 10px;
-  text-align: center;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 16px;
+  align-content: space-between;
 }
 
 p {
@@ -45,6 +42,7 @@ p {
 /* TODO: size images manually so this is not necessary */
 img {
   max-height: 200px;
+  justify-content: center;
 }
 
 /***************** NAV *****************/
@@ -52,11 +50,28 @@ img {
 nav a:hover {
   text-decoration: underline;
 }
+.nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
 
+.nav li {
+float:left;
+}
+
+.nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+}
 /**************** HERO *****************/
 
 header img {
   max-height: 6rem;
+  display: flex;
 }
 
 h1 .logo-w {
@@ -71,7 +86,6 @@ input[type="submit"] {
   border: 1px solid #3D7FCF;
   border-radius: 5px;
   font-size: .75rem;
-  color: white;
 }
 
 /*********** PRODUCTS SECTION ***********/
@@ -90,7 +104,7 @@ h2 {
 h3 {
   font-size: 1.2rem;
   text-align: center;
-  color: #2d2d2d;
+  color: deepskyblue;
 }
 
 footer {
