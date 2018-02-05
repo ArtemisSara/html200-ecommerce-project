@@ -12,38 +12,41 @@
 }
 
 body {
-  font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;  
 }
 
 .item-container {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   background-color: lightskyblue;
-  justify-content: center;
+  justify-content: space-around;
  
 }
 
 .item-container > div {
-  background-color: azure;
-  width: 100px;
+  background-color: white;
+  width: 20rem;
   margin: 10px;
-  line-height: 75px;
-  font-size: 16px;
+  line-height: 1.25rem;
+  font-size: 15px;
   align-content: space-between;
+  padding: 10px;
 }
 
 p {
+  text-align: center;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
-  color: #2d2d2d;
+  font-weight: bold;
+  color: cadetblue;
+  
 }
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 200px;
-  justify-content: center;
+  
+  align-content: space-around;
+  max-height: 15rem;
 }
 
 /***************** NAV *****************/
@@ -81,14 +84,18 @@ li a:hover:not(.active) {
 
 /**************** HERO *****************/
 
-header img {
-  max-height: 6rem;
-  display: flex;
-  margin: inherit;
-}
 
 h1 .logo-w {
   font-size: 3.5rem;
+  
+}
+.header img {
+  
+}
+.header h1 {
+  font-size: 1.5rem;
+  color: cadetblue;
+  padding: 10px;
 }
 
 /**************** ASIDE ****************/
@@ -103,30 +110,33 @@ input[type="submit"] {
 
 /*********** PRODUCTS SECTION ***********/
 
-section {
-  padding: 0 .75rem;
-}
-
-h1 {
-  flex: auto;
-}
-
 h2 {
   padding-top: 1.5rem;
   font-size: 2rem;
   text-align: center;
-  color: #2d2d2d;
+  color: white;
+  font-size: 5em;
+  font-family:  Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  
 }
 
 h3 {
   font-size: 1.2rem;
-  text-align: auto;
+  text-align: center;
   flex: auto;
-  color: deepskyblue;
+  color: cadetblue;
+  padding-bottom: 10px;
 }
 
 footer {
   background-color: skyblue;
-  background-size: 100em;
-  padding: 100px;
+  background-size: 50px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+label {
+  float: right;
+  font-family: monospace;
+  padding-right: 50px;
 }
