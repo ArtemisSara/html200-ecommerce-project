@@ -9,19 +9,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   align-items: center;
+
 }
 
-body {
-  
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;  
-}
 
 .item-container {
   display: flex;
   flex-wrap: wrap;
   background-color: lightskyblue;
   justify-content: space-around;
- 
 }
 
 .item-container > div {
@@ -30,17 +26,14 @@ body {
   margin: 10px;
   line-height: 1.25rem;
   font-size: 15px;
-  align-content: space-between;
+  align-content: center;
   padding: 10px;
-}
-
-p {
-  text-align: center;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: cadetblue;
+  font-family: 'Handlee', cursive;
+  color: darkcyan;
   
 }
+
+
 
 /* TODO: size images manually so this is not necessary */
 
@@ -90,7 +83,7 @@ header {
 }
 
 div.header-txt {
-    text-align: center;
+    text-align: left;
     color: cadetblue;
     padding-top: 15px;
     font-family: 'Kavivanar', cursive;
@@ -124,27 +117,31 @@ section {
 
 h2 {
   padding-top: 1.5rem;
-  font-size: 2rem;
   text-align: center;
-  color: white;
-  font-size: 5em;
-  font-family:  Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  color: lightblue;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  font-size: 100px;
+  font-family: 'Kavivanar', cursive;
   
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   text-align: center;
   flex: auto;
   color: cadetblue;
   padding-bottom: 10px;
 }
 
+p.price {
+  text-align: right;
+}
 footer {
   background-color: skyblue;
   background-size: 50px;
   padding-top: 25px;
   padding-bottom: 50px;
+  font-family: 'Kavivanar', cursive;
 }
 
 label {
