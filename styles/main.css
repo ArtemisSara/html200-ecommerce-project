@@ -43,14 +43,16 @@ p {
 }
 
 /* TODO: size images manually so this is not necessary */
+
 img {
-  
   align-content: space-around;
   max-height: 15rem;
 }
 
 /***************** NAV *****************/
-
+.nav {
+  font-size: 1rem;
+}
 nav a:hover {
   text-decoration:underline;
 }
@@ -83,20 +85,25 @@ li a:hover:not(.active) {
 }
 
 /**************** HERO *****************/
-
-
-h1 .logo-w {
-  font-size: 3.5rem;
-  
+header {
+  background: skyblue;
 }
-.header img {
-  
+
+div.header-txt {
+    text-align: center;
+    color: cadetblue;
+    padding-top: 15px;
+    font-family: 'Kavivanar', cursive;
+    font-size: 4rem;
 }
+
+//*
 .header h1 {
-  font-size: 1.5rem;
+  float: center;
   color: cadetblue;
   padding: 10px;
 }
+*//
 
 /**************** ASIDE ****************/
 
@@ -109,6 +116,11 @@ input[type="submit"] {
 }
 
 /*********** PRODUCTS SECTION ***********/
+
+section {
+  padding: 0 .75rem;
+}
+
 
 h2 {
   padding-top: 1.5rem;
