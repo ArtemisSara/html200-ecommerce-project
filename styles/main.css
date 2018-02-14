@@ -9,9 +9,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   align-items: center;
-
 }
-
 
 .item-container {
   display: flex;
@@ -29,11 +27,8 @@
   align-content: center;
   padding: 10px;
   font-family: 'Handlee', cursive;
-  color: darkcyan;
-  
+  color: darkcyan; 
 }
-
-
 
 /* TODO: size images manually so this is not necessary */
 
@@ -114,15 +109,17 @@ section {
   padding: 0 .75rem;
 }
 
+h1 {
+  font-size: 5rem;
+  display: inline;
+}
 
 h2 {
-  padding-top: 1.5rem;
-  text-align: center;
-  color: lightblue;
+  padding-top: 1.5rem;  
+  color: white;
   text-shadow: black 0.1em 0.1em 0.1em;
   font-size: 100px;
-  font-family: 'Kavivanar', cursive;
-  
+  font-family: 'Kavivanar', cursive; 
 }
 
 h3 {
@@ -136,6 +133,7 @@ h3 {
 p.price {
   text-align: right;
 }
+
 footer {
   background-color: skyblue;
   background-size: 50px;
