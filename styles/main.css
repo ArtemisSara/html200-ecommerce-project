@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   align-items: center;
+  padding: 10px;
 }
 
 .item-container {
@@ -85,26 +86,6 @@ div.header-txt {
     font-size: 4rem;
 }
 
-//*
-.header h1 {
-  float: center;
-  color: cadetblue;
-  padding: 10px;
-}
-*//
-
-/**************** ASIDE ****************/
-
-input[type="submit"] {
-  padding: .25rem;
-  background-color: #3D7FCF;
-  border: 1px solid #3D7FCF;
-  border-radius: 5px;
-  font-size: .75rem;
-}
-
-/*********** PRODUCTS SECTION ***********/
-
 section {
   padding: 0 .75rem;
 }
@@ -126,7 +107,7 @@ h3 {
   font-size: 2rem;
   text-align: center;
   flex: auto;
-  color: cadetblue;
+  color: teal;
   padding-bottom: 10px;
 }
 
@@ -142,6 +123,10 @@ footer {
   font-family: 'Kavivanar', cursive;
 }
 
+address {
+  color: teal;
+  text-align: center;
+}
 label {
   float: right;
   font-family: monospace;
