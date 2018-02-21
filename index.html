@@ -103,27 +103,25 @@
           <p>Luxurious silk scarf with subtle paisley pattern. 100% silk.</p>
           <p class="price">26.99</p>
         </div>
-      </div>
-      </section>
+        </div></section>
     </main>
   
   <script src="js/script.js"></script>
+  <script src="js/email-form.js"></script>
   
   <footer>
-  <h3>Winter Wear Warehouse</h3>
-    <address>123 Sleigh Rd <br>
+    <h3>Winter Wear Warehouse</h3><address>123 Sleigh Rd <br>
     Ithaca, NY 00234</address> 
     <br>
-      <form>
+    
+      <form name="custInfo" onsubmit="capture()">
         <label>
-            <input type="submit" value="Submit">
-            <i class="fa fa-envelope-o"></i>
+        Newsletter Sign-up
+        <input type="text"  name="name"\>
         </label>
-        <label>Sign up for our mailing list:
-          <input type="email" name="email"></label>
+        <input type="submit">
       </form>
-  
-  </footer>
-  
-</body>
+    
+    </footer>
+  </body>
 </html>
