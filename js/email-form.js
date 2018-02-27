@@ -5,7 +5,6 @@
 //  
 
 function capture(event){
-  
   console.log("Thank you for registering,")
   
   var theName = document.custInfo.name.value
