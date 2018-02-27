@@ -3,24 +3,36 @@
 }
 
 /* added media queries */
-@media screen and (max-width: 1950px) { 
+@media screen and (max-width: 1600px) { 
   h1 {
-  color: darkblue;  
+  color: #363b74;  
   font-size: 5em;
 }
   p {
-    font-size: 12px;
+    font-size: 16px;
+    color: #2ACACE;
   }
   
-@media (min-width: 1200px) and (max-width: 1951px) {
+@media (min-width: 1200px) and (max-width: 1601px) {
   h1 {
-    color: darkcyan;
+    color: #2ACACE;
     font-size: 3em;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #f7fbfb,
+    1px -1px 0 #f7fbfb,
+    -1px 1px 0 #f7fbfb,
+    1px 1px 0 #f7fbfb,  
+    -2px 0 0 #f7fbfb,
+    2px 0 0 #f7fbfb,
+    0 2px 0 #f7fbfb,
+    0 -2px 0 #f7fbfb;
   }
 
 p {
   font-size: 18px;
-  color: deeppink;
+  line-height: 25px;
+  color: #363b74;
 }
 }
  /* added flexbox */ 
@@ -154,7 +166,6 @@ footer {
 address {
   color: teal;
   text-align: center;
-  font-kerning: 10px;
 }
   
   label {
