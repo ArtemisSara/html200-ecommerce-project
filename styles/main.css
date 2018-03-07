@@ -12,10 +12,12 @@
     font-size: 16px;
     color: #2ACACE;
   }
-  #cart {
+  
+  p.cart {
     font-size: 11px;
-    color: 2ACACE;
+    color: #2ACACE;
   }
+  
   i.fa-shopping-cart {
     color: lightblue;
     padding-top: 12px;
