@@ -1,6 +1,20 @@
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.
+
+cart = []
+function addtoCart(name){
+var i = cart.indexOf(name)
+if (i == -1){
+  cart.push(name)
+  console.log(cart.length + '' + name)
+} else {
+  cart.splice(i, 1)
+  console.log(cart.length +'' + name)
+}
+}
+  
+
 var products = [
   {
     "name": "Reversible Plaid",
