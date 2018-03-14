@@ -70,3 +70,75 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 [update this section with information about the testing steps you took to ensure site quality]
+User base for this website:
+-Women ages 30 to 65 (primarily/main focus)
+-Men shopping for gifts for family or friends (occasionally)
+-20 to 29 year olds shopping for gifts for their family or friends (occasionally)
+
+-->Women ages 30 to 65:
+  -looking for gifts
+  -looking for themselves
+  -"fashionistas"
+  -skiers/snowboarders
+  -hikers
+  
+Research percentages/conclusions (research below is global)
+-57% of women vs 39% of men purchase clothing/shoes online
+-66% of women have smart phones-test both mobile and desktop/laptop
+Age:
+-83% women 30 to 49 have smart phones-test both mobile and desktop/laptop
+-58% women 50 to 64 have smart phones-test both mobile and desktop/laptop
+-only 30% of women 65+ have smart phones therefore they'd more likely look at website on a desktop/laptop browser
+-Info found on adage.com/images/in/pdf/1114.pdf (2011 data) indicates the following:
+    -Millenials online shop: use laptops 90% of the time, desktops 70% of the time, and smartphones only 18% of the time
+    -Gen X online shop: use laptops 97% of the time, desktop 95%, and smartphones only 19% of the time
+    -Boomers online shop: use laptops 87% of the time, desktops 75% of the time, and smartphones only 4% of the time
+  -->Indicates to me that most women use laptops first, desktops second, and surprisingly smartphones last when it comes to online shopping
+  -->This data has likely changed since 2011, but at this time it's the most comprehensive site I found for this specific subsect of the population.
+Color preferences (in order to build the best color design):
+  -35% of women selected Blue as their favorite color
+  -Only 1% selected white as their favorite color, so limit white space where you can if it's something you want to focus on
+  -Orange was the least popular color at 33%, followed by Brown at 20%, avoid using these colors as much as possible
+  -Colors to avoid b/c they look "cheap": orange 26%, yellow 22%, brown 13%
+  -In one study it showed that women gravitate towards "soft" colors, like light blues, greens, yellows, and pinks
+  
+Testing:
+-ResponsiveDesignChecker.com:
+  -First tested for responsiveness on various tablet sizes:
+      -Apple iPad Mini, Amazon Kindle Fire/Fire HD, Asus Eee 1000 768x1024, site resized well into single column grid of the clothing modules, easy to read still
+      -Apple iPad Pro 1366x1024, site resized well to a three/two column grid of the clothing modules.  When at this size it triggered the outlined version of the site header.  Font is easy to read at this size which is beneficial to all users, but particularly useful for 65+ users
+      -Nexus 7 600x960, shrinks to one column, font is still readable
+      -Nexus 9 1024x768, responsive grid shrinks to 2 columns, font still legible 
+      -Samsung Galaxy Tab 10 800x1280, instead of grid responding to size of screen by shrinking to 1 column, the 2 column design as seen on the Nexus 9 just gets smaller.  Text might not be as legible for people with low vision or those who's eyesite is getting worse with age or health
+      
+   -Next, tested for responsiveness on desktop/notebooks:
+      -24" 1920x1200 screen, site responds by having a row of 5 modules with a row of 3 modules below.  Font appears small on this site, but on work desktop, which is 1920x1080 and using Firefox, it does fill the screen and font is more legible
+      -23" and 22" didn't change, both had two rows of 4 modules, font was small
+      -20" 1600x900, still two rows of 4 modules, but font size increased/more legible, site header changed to outlined text
+      -19" 1440x900, site width decreased causing the modules to switch to 2 rows of 3 modules, and 1 row of 2 modules.  Header remained the outline text version and font stayed same size as on 20" screen
+      -15" 1366x768, same as above
+      -13" 1024x800, screen width reduced causing rows to go to 4 rows of 2 modules.  Header text reverted back to solid blue text, body text is still legible.
+      -10" notebook 1024x600, only difference was that screen height shrunk, otherwise body and header text remained the same.
+      
+  -Next, tested for responsiveness on smartphones:
+      -Does not work well on iPhone 3/4/4s/5/5s, Samsung Galaxy S5/6/7, Sony Xperia Z2/Z3, Nexus 4
+      -Does respond well to iPhone 6s Plus/7 Plus, Google Pixel and Nexus 5/6.  On these grid stacks as one column, header text remains dark blue w/out outline
+      
+  Conclusions:
+  While it's important to focus on all potential customers, based on the data we're looking at a user who is between 30 and 50, primarily using a desktop/laptop.  Site should be lighter colors of blues, greens, and limited white space.  Overall the site works well, especially for this user type, but it could use some work as far as resizing for tiny/smaller screens of certain mobile phones. Will continue to work on this as site progresses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
